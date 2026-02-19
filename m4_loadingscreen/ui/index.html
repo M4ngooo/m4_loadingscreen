@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>VestCity</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<div class="panel ciekawostka">
+  <h3><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Ciekawostka</h3>
+  <p id="tip-text">Ładowanie...</p>
+</div>
+
+<nav class="social">
+  <a href="#" target="_blank" rel="noopener" title="Discord"><i class="fab fa-discord"></i></a>
+  <a href="#" target="_blank" rel="noopener" title="TikTok"><i class="fab fa-tiktok"></i></a>
+  <a href="#" target="_blank" rel="noopener" title="Strona internetowa"><i class="fas fa-globe"></i></a>
+  <a href="#" target="_blank" rel="noopener" title="YouTube"><i class="fab fa-youtube"></i></a>
+</nav>
+
+<div class="center">
+  <img src="logo.png" class="logo" alt="VestCity">
+</div>
+
+<div class="status-block">
+  <div class="status-line">
+    <span class="status-dots"></span>
+    <span id="status-title">Trwa łączenie...</span>
+  </div>
+  <p class="status-sub" id="loading-text">Pobieranie zasobów serwera</p>
+</div>
+
+<div class="volume-block">
+  <i class="fas fa-volume-up volume-icon"></i>
+  <span class="volume-label">Głośność</span>
+  <div class="volume-bar" id="volume-bar">
+    <div class="volume-fill" id="volume-fill"></div>
+  </div>
+  <span class="volume-pct" id="volume-pct">100%</span>
+</div>
+
+<div class="music-block">
+  <p class="music-now" id="music-title">Majki x Major SPZ - "Pach Pach"</p>
+  <p class="music-desc" id="music-desc">Muzyka w tle podczas ładowania serwera. Kliknij <span class="highlight">SPACJĘ</span>, aby włączyć lub wyłączyć.</p>
+</div>
+
+<audio id="bg-music" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
