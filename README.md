@@ -1,6 +1,6 @@
 # m4-loadingscreen
 
-Autorski loadingscreen dla serwerów FiveM
+Prosty, minimalistyczny loadingscreen dla serwerów FiveM
 
 ## 📸 Preview
 
