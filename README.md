@@ -1,2 +1,7 @@
 # m4-loadingscreen
-Simple loading screen for FiveM servers
+
+Autorski loadingscreen dla serwerów FiveM
+
+## 📸 Preview
+
+![Preview](preview.png)
